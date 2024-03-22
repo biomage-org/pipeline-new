@@ -83,7 +83,7 @@ format_cluster_cellsets <- function(cell_sets,
   # careful with capital l on type for the key.
   cell_sets_object <-
     list(
-      key = clustering_method,
+      key = "louvain",
       name = name,
       rootNode = TRUE,
       type = "cellSets",
